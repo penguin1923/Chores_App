@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chores", "Chores\Chores.csproj", "{17D8D8C4-25BA-4666-9616-7B4BC584F472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chores.Tests", "ChoresTests\Chores.Tests.csproj", "{09E8AE54-ED06-41EA-ACB8-6FF368367091}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17D8D8C4-25BA-4666-9616-7B4BC584F472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D8D8C4-25BA-4666-9616-7B4BC584F472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D8D8C4-25BA-4666-9616-7B4BC584F472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D8D8C4-25BA-4666-9616-7B4BC584F472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09E8AE54-ED06-41EA-ACB8-6FF368367091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09E8AE54-ED06-41EA-ACB8-6FF368367091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09E8AE54-ED06-41EA-ACB8-6FF368367091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09E8AE54-ED06-41EA-ACB8-6FF368367091}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7088B31E-8056-4EEF-AC23-79B88DE4E8C9}
+	EndGlobalSection
+EndGlobal
