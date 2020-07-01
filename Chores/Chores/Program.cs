@@ -6,7 +6,8 @@ namespace Chores
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ChoresCLI cli = new ChoresCLI();
+            cli.RunCLI();
         }
 
         public string CanItStart()
@@ -14,5 +15,7 @@ namespace Chores
             string yes = "yes";
             return yes;
         }
+
+
     }
 }
