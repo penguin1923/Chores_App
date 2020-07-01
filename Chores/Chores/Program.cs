@@ -11,8 +11,8 @@ namespace Chores
 
         public string CanItStart()
         {
-            return "yes";
-
+            string yes = "yes";
+            return yes;
         }
     }
 }

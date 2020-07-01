@@ -11,7 +11,8 @@ namespace Chores.Tests
         [TestMethod]
         public void CanItStart()
         {
-            Assert.AreEqual("yes", "yes");
+            Program idk = new Program();
+            Assert.AreEqual(idk.CanItStart(), "yes");
         }
 
 
