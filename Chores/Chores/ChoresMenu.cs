@@ -7,6 +7,7 @@ namespace Chores
 {
     public class ChoresMenu
     {
+        CompletedChores chores = new CompletedChores();
         public void PrintHeader()
         {
             Console.WriteLine(@"");
@@ -52,7 +53,7 @@ namespace Chores
 
             if(option == "1") 
             {
-
+                chores.ChoresList();
             }
             else if(option == "2") 
             {
