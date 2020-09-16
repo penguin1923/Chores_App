@@ -6,8 +6,8 @@ namespace Chores
     {
         static void Main(string[] args)
         {
-            ChoresCLI cli = new ChoresCLI();
-            cli.RunCLI();
+            ChoresMenu cli = new ChoresMenu();
+            cli.FindName();
         }
 
         public string CanItStart()
