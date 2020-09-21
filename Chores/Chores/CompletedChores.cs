@@ -10,7 +10,7 @@ namespace Chores
     {
 
         string s = "poop";
-        public string ChoresList()
+        public string ChoresList(string name)
         {//Pull in chores list from database
            return s;
         }

@@ -47,7 +47,7 @@ namespace Chores
             {//add new completed chore to the existing list
                 Console.Clear();
                 PrintHeader();
-                answer = chores.ChoresList();
+                answer = chores.ChoresList(name);
                 Console.WriteLine(answer);
 
             }
