@@ -7,7 +7,7 @@ namespace Chores
 {
     public class ChoresMenu
     {
-        CompletedChores chores = new CompletedChores();
+
         public void PrintHeader()
         {
             Console.WriteLine(@"");
@@ -22,14 +22,8 @@ namespace Chores
             Console.WriteLine(@"         \______/ \__|  \__| \______/ \__|       \_______|\_______/ ");
             Console.WriteLine(@"");
             Console.WriteLine(@"");
-            
-
-
-
-
-
-
         }
+        CompletedChores chores = new CompletedChores();
         string name = "";
         public void FindName()
         {
@@ -39,38 +33,45 @@ namespace Chores
             Console.Clear();
             WhatIsYourMission();
         }
-
-
-        public void WhatIsYourMission() 
+        public void WhatIsYourMission()
         {
             PrintHeader();
-            Console.WriteLine("What would you like to do "+name+"?");
+            Console.WriteLine("What would you like to do " + name + "?");
             Console.WriteLine("1--Add a chore I have completed");
             Console.WriteLine("2--Check how I am doing this week?");
             Console.WriteLine("3--Close my week out");
             Console.WriteLine("Q--Quit this program");
             string option = Console.ReadLine().ToLower();
-
-            if(option == "1") 
-            {
-                chores.ChoresList();
-            }
-            else if(option == "2") 
-            {
-
-            }
-            else if (option == "3") 
-            {
+            string answer = "";
+            if (option == "1")
+            {//add new completed chore to the existing list
+                Console.Clear();
+                PrintHeader();
+                answer = chores.ChoresList();
+                Console.WriteLine(answer);
 
             }
-            else if(option=="q")
+            else if (option == "2")
+            {//get balance from Db with current total
+                Console.Clear();
+                PrintHeader();
+                answer = chores.AddChore();
+                Console.WriteLine(answer);
+            }
+            else if (option == "3")
+            {//close out whole transaction
+
+            }
+            else if (option == "q" || option == "Q")
             {
-                return;
+                return ;
             }
             else
             {
                 InvalidMission();
             }
+            Console.ReadLine();
+            Console.Clear();
 
         }
         public void InvalidMission()

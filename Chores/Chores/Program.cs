@@ -6,16 +6,8 @@ namespace Chores
     {
         static void Main(string[] args)
         {
-            ChoresMenu cli = new ChoresMenu();
-            cli.FindName();
+            ChoresMenu chores = new ChoresMenu();
+            chores.FindName();
         }
-
-        public string CanItStart()
-        {
-            string yes = "yes";
-            return yes;
-        }
-
-
     }
 }

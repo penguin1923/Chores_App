@@ -2,19 +2,17 @@
 using System.Collections.Generic;
 using System.Data.SqlTypes;
 using System.Text;
+using Chores;
 
 namespace Chores
 {
     public class CompletedChores
     {
-        //ChoresMenu menu = new ChoresMenu();
+
         string s = "poop";
         public string ChoresList()
         {//Pull in chores list from database
-            //menu.PrintHeader();
-            
-            Console.WriteLine(s);
-            return s;
+           return s;
         }
 
         public string AddChore()
