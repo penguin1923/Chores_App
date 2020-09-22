@@ -23,7 +23,7 @@ namespace Chores
             Console.WriteLine(@"");
             Console.WriteLine(@"");
         }
-        CompletedChores chores = new CompletedChores();
+        ChoresSQLDAO chores = new ChoresSQLDAO();
         string name = "";
         public void FindName()
         {

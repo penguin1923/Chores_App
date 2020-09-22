@@ -6,13 +6,13 @@ using Chores;
 
 namespace Chores
 {
-    public class CompletedChores
+    public class ChoresSQLDAO : IChoresDAO
     {
 
         string s = "poop";
         public string ChoresList(string name)
         {//Pull in chores list from database
-           return s;
+            return s;
         }
 
         public string AddChore()
