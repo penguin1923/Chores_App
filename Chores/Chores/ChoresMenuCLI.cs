@@ -107,7 +107,8 @@ namespace ChoresProjects
 
             for(int i = 0; i < chores.Count; i++) 
             {
-                Console.WriteLine(i+" - "+chores[i]);
+                Console.WriteLine(" - "+chores[i]);
+                Console.WriteLine();
             }
         }
         public void AddCompletedChore()

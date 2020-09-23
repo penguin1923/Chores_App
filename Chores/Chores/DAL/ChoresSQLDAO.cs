@@ -33,16 +33,16 @@ namespace ChoresProjects.DAL
                     {
                         Chores chore = new Chores();
                         chore.choresId = Convert.ToInt32(reader["choresId"]);
-                        chore.chore_title= Convert.ToString(reader["choreTitle"]);
-                        chore.chore_description= Convert.ToString(reader["choreDescription"]);
-                        chore.chore_payout= Convert.ToDecimal(reader["chorePay"]);
+                        chore.chore_title= Convert.ToString(reader["chore_title"]);
+                        chore.chore_description= Convert.ToString(reader["chore_description"]);
+                        chore.chore_payout= Convert.ToDecimal(reader["chore_payout"]);
                         choreList.Add(chore);
                     }
                 }
             }
             catch (Exception e)
             {
-
+                Console.WriteLine("something happened");
             }
             return choreList;
         }
