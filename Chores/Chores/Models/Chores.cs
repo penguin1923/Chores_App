@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Chores.Models
+namespace ChoresProjects.Models
 {
     public class Chores
     {
@@ -12,9 +12,9 @@ namespace Chores.Models
         public decimal chore_payout { get; set; }
     }
 
-    public override string ToString() 
-    {//try out the padding to see if/how it works
-        return choresId.ToString().PadRight(4) + chore_title.ToString().PadRight(50) + chore_description.ToString().PadRight(50) + chore_payout.ToString().PadRight(4);
-    }
+    //public override string ToString() 
+    //{//try out the padding to see if/how it works
+    //    return choresId.ToString().PadRight(4) + chore_title.ToString().PadRight(50) + chore_description.ToString().PadRight(50) + chore_payout.ToString().PadRight(4);
+    //}
 }
 

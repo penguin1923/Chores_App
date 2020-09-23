@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "TVaNaHzgNQXOIV1X1b6qHqlydCfyUC8YSp3Nq34h3JI3R07E4816JVNRuMedF1nFk/sIarQ3KgqNkJ4zmJvnww==",
+  "dgSpecHash": "OvI7tRd29ZAK5t/TfXILZ5bjTQSSBtA4//qSU7h802L4DBXpKuTunu+tw2u1VBFFEvUOMzbgYRXSHSFq33/PFQ==",
   "success": true,
   "projectFilePath": "F:\\Code\\Personal\\Private\\Chores\\Chores\\Chores\\Chores.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\steel\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.8\\microsoft.extensions.configuration.3.1.8.nupkg.sha512",
     "C:\\Users\\steel\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\steel\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.8\\microsoft.extensions.configuration.fileextensions.3.1.8.nupkg.sha512",
+    "C:\\Users\\steel\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.8\\microsoft.extensions.configuration.json.3.1.8.nupkg.sha512",
+    "C:\\Users\\steel\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.8\\microsoft.extensions.fileproviders.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\steel\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.8\\microsoft.extensions.fileproviders.physical.3.1.8.nupkg.sha512",
+    "C:\\Users\\steel\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.8\\microsoft.extensions.filesystemglobbing.3.1.8.nupkg.sha512",
     "C:\\Users\\steel\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512"
   ],
   "logs": []

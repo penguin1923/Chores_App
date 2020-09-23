@@ -1,13 +1,21 @@
-﻿using System;
+﻿using ChoresProjects.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlTypes;
 using System.Text;
-using Chores;
 
-namespace Chores
+namespace ChoresProjects.DAL
 {
     public class ChoresSQLDAO : IChoresDAO
     {
+        private string connectionString;
+
+        public ChoresSQLDAO(string databaseconnectionString)
+        {
+            connectionString = databaseconnectionString;
+        }
+
+        public IList<Chores> choreNames = new List<Chores>();
 
         string s = "poop";
         public string ChoresList(string name)

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Chores.Models
+namespace ChoresProjects.Models
 {
-    class Users
+    public class Users
     {
         public int userId { get; set; }
         public string userName { get; set; }

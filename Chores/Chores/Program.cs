@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System.IO;
 using System;
+using ChoresProjects.DAL;
 
-
-namespace Chores
+namespace ChoresProjects
 {
     public class Program
     {
@@ -14,15 +14,15 @@ namespace Chores
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
 
             IConfigurationRoot configuration = builder.Build();
-            string connectionString = configuration.GetConnectionString("World");
+            string connectionString = configuration.GetConnectionString("Chores");
 
             IUsersDAO usersDAO = new UsersSQLDAO(connectionString);
             IPayoutDAO payoutDAO = new PayoutSQLDAO(connectionString);
             IChoresDAO choresDAO = new ChoresSQLDAO(connectionString);
-          
 
-            ChoresMenu chores = new ChoresMenu();
-            chores.FindName();
+
+            ChoresMenuCLI chores = new ChoresMenuCLI(usersDAO,choresDAO,payoutDAO);
+            chores.RunCLI();
         }
     }
 }

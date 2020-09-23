@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Code\\Personal\\Private\\Chores\\Chores\\Chores\\Chores.csproj": {}
+    "F:\\Code\\Personal\\Private\\Chores\\Chores\\Chores\\ChoresProject.csproj": {}
   },
   "projects": {
-    "F:\\Code\\Personal\\Private\\Chores\\Chores\\Chores\\Chores.csproj": {
+    "F:\\Code\\Personal\\Private\\Chores\\Chores\\Chores\\ChoresProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Code\\Personal\\Private\\Chores\\Chores\\Chores\\Chores.csproj",
-        "projectName": "Chores",
-        "projectPath": "F:\\Code\\Personal\\Private\\Chores\\Chores\\Chores\\Chores.csproj",
+        "projectUniqueName": "F:\\Code\\Personal\\Private\\Chores\\Chores\\Chores\\ChoresProject.csproj",
+        "projectName": "ChoresProject",
+        "projectPath": "F:\\Code\\Personal\\Private\\Chores\\Chores\\Chores\\ChoresProject.csproj",
         "packagesPath": "C:\\Users\\steel\\.nuget\\packages\\",
         "outputPath": "F:\\Code\\Personal\\Private\\Chores\\Chores\\Chores\\obj\\",
         "projectStyle": "PackageReference",
@@ -41,15 +41,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[3.1.8, )"
-            },
-            "Microsoft.Extensions.Configuration.FileExtensions": {
-              "target": "Package",
-              "version": "[3.1.8, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[3.1.8, )"
             }

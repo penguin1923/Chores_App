@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Chores.Models
+namespace ChoresProjects.Models
 {
     public class Payout
     {
