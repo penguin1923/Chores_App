@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
+using ChoresProjects.Models;
+using ChoresProjects.DAL;
 
 namespace ChoresProjects
 {
@@ -34,7 +36,7 @@ namespace ChoresProjects
             {
                 string choice = Console.ReadLine();
                 Console.Clear();
-                switch (Command_AddCompletedChore.ToLower())
+                switch (choice.ToLower())
                 {
                     case Command_ViewChores:
                         ViewChores();
@@ -98,6 +100,15 @@ namespace ChoresProjects
         }
         public void ViewChores()
         {
+            IList<Chores> chores = choresDAO.GetChores();
+
+            Console.WriteLine();
+            Console.WriteLine("List O Chores");
+
+            for(int i = 0; i < chores.Count; i++) 
+            {
+                Console.WriteLine(i+" - "+chores[i]);
+            }
         }
         public void AddCompletedChore()
         {

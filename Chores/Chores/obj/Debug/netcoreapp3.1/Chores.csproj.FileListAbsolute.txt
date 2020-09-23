@@ -20,3 +20,9 @@ F:\Code\Personal\Private\Chores\Chores\Chores\bin\Debug\netcoreapp3.1\Microsoft.
 F:\Code\Personal\Private\Chores\Chores\Chores\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
 F:\Code\Personal\Private\Chores\Chores\Chores\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
 F:\Code\Personal\Private\Chores\Chores\Chores\obj\Debug\netcoreapp3.1\Chores.csproj.CoreCompileInputs.cache
+F:\Code\Personal\Private\Chores\Chores\Chores\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+F:\Code\Personal\Private\Chores\Chores\Chores\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+F:\Code\Personal\Private\Chores\Chores\Chores\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+F:\Code\Personal\Private\Chores\Chores\Chores\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+F:\Code\Personal\Private\Chores\Chores\Chores\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Code\Personal\Private\Chores\Chores\Chores\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
