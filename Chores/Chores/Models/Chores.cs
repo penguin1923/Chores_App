@@ -11,4 +11,10 @@ namespace Chores.Models
         public string chore_description { get; set; }
         public decimal chore_payout { get; set; }
     }
+
+    public override string ToString() 
+    {//try out the padding to see if/how it works
+        return choresId.ToString().PadRight(4) + chore_title.ToString().PadRight(50) + chore_description.ToString().PadRight(50) + chore_payout.ToString().PadRight(4);
+    }
 }
+

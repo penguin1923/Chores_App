@@ -7,7 +7,7 @@ F:\Code\Personal\Private\Chores\Chores\Chores\bin\Debug\netcoreapp3.1\Chores.pdb
 F:\Code\Personal\Private\Chores\Chores\Chores\obj\Debug\netcoreapp3.1\Chores.csprojAssemblyReference.cache
 F:\Code\Personal\Private\Chores\Chores\Chores\obj\Debug\netcoreapp3.1\Chores.AssemblyInfoInputs.cache
 F:\Code\Personal\Private\Chores\Chores\Chores\obj\Debug\netcoreapp3.1\Chores.AssemblyInfo.cs
-F:\Code\Personal\Private\Chores\Chores\Chores\obj\Debug\netcoreapp3.1\Chores.csproj.CoreCompileInputs.cache
 F:\Code\Personal\Private\Chores\Chores\Chores\obj\Debug\netcoreapp3.1\Chores.dll
 F:\Code\Personal\Private\Chores\Chores\Chores\obj\Debug\netcoreapp3.1\Chores.pdb
 F:\Code\Personal\Private\Chores\Chores\Chores\obj\Debug\netcoreapp3.1\Chores.genruntimeconfig.cache
+F:\Code\Personal\Private\Chores\Chores\Chores\obj\Debug\netcoreapp3.1\Chores.csproj.CoreCompileInputs.cache

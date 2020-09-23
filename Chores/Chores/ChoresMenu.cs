@@ -7,6 +7,16 @@ namespace Chores
 {
     public class ChoresMenu
     {
+        private IUsersDAO usersDAO;
+        private IChoresDAO choresDAO;
+        private IPayoutDAO payoutDAO;
+
+        public ChoresMenu(IUsersDAO usersDAO,IChoresDAO choresDAO,IPayoutDAO payoutDAO) 
+        {
+            this.usersDAO = usersDAO;
+            this.choresDAO = choresDAO;
+            this.payoutDAO = payoutDAO;
+        }
 
         public void PrintHeader()
         {

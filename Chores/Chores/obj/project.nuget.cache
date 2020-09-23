@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7SIVukcEunmVM9cEvK6EyllfBE93kjKszNk+F5DHTdv1YdPyGMJIigpsctNKinISS1r3sE+ao5FT4WJGLL94SQ==",
+  "dgSpecHash": "TVaNaHzgNQXOIV1X1b6qHqlydCfyUC8YSp3Nq34h3JI3R07E4816JVNRuMedF1nFk/sIarQ3KgqNkJ4zmJvnww==",
   "success": true,
   "projectFilePath": "F:\\Code\\Personal\\Private\\Chores\\Chores\\Chores\\Chores.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\steel\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\steel\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512"
+  ],
   "logs": []
 }
