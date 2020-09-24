@@ -15,13 +15,13 @@ namespace ChoresProjects.DAL
             connectionString = databaseconnectionString;
         }
 
-        public IList<Chores> GetChores() 
+        public IList<Chores> GetChores()
         {
             IList<Chores> choreList = new List<Chores>();
 
-            try 
+            try
             {
-                using(SqlConnection connection = new SqlConnection(connectionString)) 
+                using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
                     SqlCommand sqlCommand = new SqlCommand();
@@ -29,24 +29,22 @@ namespace ChoresProjects.DAL
                     sqlCommand.CommandText = sqlStatement;
                     sqlCommand.Connection = connection;
                     SqlDataReader reader = sqlCommand.ExecuteReader();
-                    while (reader.Read()) 
+                    while (reader.Read())
                     {
                         Chores chore = new Chores();
                         chore.choresId = Convert.ToInt32(reader["choresId"]);
-                        chore.chore_title= Convert.ToString(reader["chore_title"]);
-                        chore.chore_description= Convert.ToString(reader["chore_description"]);
-                        chore.chore_payout= Convert.ToDecimal(reader["chore_payout"]);
+                        chore.chore_title = Convert.ToString(reader["chore_title"]);
+                        chore.chore_description = Convert.ToString(reader["chore_description"]);
+                        chore.chore_payout = Convert.ToDecimal(reader["chore_payout"]);
                         choreList.Add(chore);
                     }
                 }
             }
             catch (Exception e)
             {
-                Console.WriteLine("something happened");
+                Console.WriteLine("something bad happened");
             }
             return choreList;
         }
-
-        
     }
 }

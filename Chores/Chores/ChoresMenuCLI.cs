@@ -113,6 +113,20 @@ namespace ChoresProjects
         }
         public void AddCompletedChore()
         {
+            ViewChores();
+            Console.WriteLine("Which chore number did you complete");
+            string choreSelection = Console.ReadLine();
+            int chore = int.Parse(choreSelection);
+            Console.WriteLine("What is your school ID number");
+            string schoolNumber = Console.ReadLine();
+            int number = int.Parse(schoolNumber);
+            Payout choice = new Payout
+            {
+                choresId=chore,
+                userId=number
+            };
+            bool result = payoutDAO.CompletedChore();
+            
         }
         public void Checkbalance()
         {
